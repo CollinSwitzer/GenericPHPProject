@@ -1,0 +1,723 @@
+/* Adds Padding to the bottom of the nav */
+
+nav {
+    padding-bottom: 1em;
+}
+
+
+/* Full-width inputs */
+
+.loginInputUsername,
+.loginInputPassword {
+    width: 100% !important;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    display: inline-block !important;
+    border: 1px solid dimgrey !important;
+    box-sizing: border-box !important;
+}
+
+
+/* Chanes the link class to conform to color pallot  */
+
+.link {
+    color: maroon !important;
+}
+
+
+/* Create a custom checkbox/ Checkbox Format */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Changes link image to be correctly located on the left side of container*/
+
+.linkImage {
+    float: left;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Century Gothic";
+    background-color: Maroon;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
+Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+/*responsive
+display the links vertically instead of horizontally */
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+/*Header*/
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: grey;
+    color: white;
+    font-size: 30px;
+}
+
+
+/*responsive img*/
+
+.responsive {
+    width: 90%;
+    max-height: 10em;
+    max-width: 100em;
+    margin: auto;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Set a style for all buttons */
+
+#loginButton {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+}
+
+
+/* Button style for a button with full width and styling*/
+
+.buttonFullSize {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+
+/* Same as buttonFullSize minus the full width*/
+
+.buttonStyle {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+
+/* buttonStyle with a black and white color*/
+
+.buttonStyleNoColor {
+    background-color: whitesmoke;
+    color: black !important;
+    padding: 7px 10px;
+    margin: 6px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+
+/* Changes hover property to show grey on hover*/
+
+.buttonStyleNoColor:hover {
+    background-color: grey !important;
+}
+
+
+/*Username/Password style*/
+
+label {
+    color: black;
+    border: none;
+    font-family: "Century Gothic";
+}
+
+.loginLabel {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+}
+
+
+/*Login Button*/
+
+.loginButton {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover,
+.buttonFullSize:hover,
+#loginButton:hover,
+.buttonStyle:hover,
+submit:hover {
+    opacity: 0.8;
+}
+
+
+/* Center CSI image */
+
+.img_container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    border: black;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 10px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+
+/* Collin Code */
+
+
+/* Changes link attributes to display in nav*/
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+a:active {
+    color: maroon;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Elements inside the table so they go side by side with one another*/
+
+.btn_edit,
+.btn_save,
+.btn_cancel,
+.btn_delete {
+    display: inline-block;
+}
+
+
+/* Prevents text wraping*/
+
+.OptionDiv {
+    white-space: nowrap;
+}
+
+
+/* Correctly padding the main page datatable*/
+
+.dataTables_info {
+    padding: 15px;
+}
+
+
+/* Correctly formatting the scroll body of the datatable*/
+
+#table-scroll {
+    height: 150px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+
+/* Formatting of table elements to be padded correctly and single lined*/
+
+th,
+td {
+    white-space: nowrap;
+    padding: 10px;
+}
+
+
+/* DataTables padding*/
+
+div.dataTables_length {
+    padding: 10px;
+}
+
+
+/* More table formatting */
+
+tr {
+    height: 3em;
+    padding: 10px;
+}
+
+
+/* Centering table element text*/
+
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Scrolling and padding of DataTable on main page*/
+
+#table-wrapper table {
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+
+/* Formatting + Styling of main page data table */
+
+#table-wrapper table thead th .text {
+    top: -10px;
+    z-index: 2;
+    height: 20px;
+    width: 35%;
+    border: 1px solid red;
+}
+
+
+/* Changes every other table element row color for readability*/
+
+tr:nth-child(even) {
+    background-color: #C0C0C0 !important;
+}
+
+
+/* Changes table caption styling*/
+
+caption {
+    display: table-caption;
+    text-align: center;
+}
+
+
+/* Fixes some DataTables issues*/
+
+#tbl_div div {
+    display: none;
+}
+
+#tableDiv {
+    overflow-x: auto;
+}
+
+
+/* Unused */
+
+#table-select {
+    float: left
+}
+
+
+/* Styling*/
+
+#Criteria {
+    width: 40%;
+    height: 20%;
+}
+
+
+/* Fixes some DataTables issues with displaying */
+
+div.dataTables_scrollBody table thead .sorting:before,
+div.dataTables_scrollBody table thead .sorting_asc:before,
+div.dataTables_scrollBody table thead .sorting_desc:before {
+    display: none;
+}
+
+
+/*Remove double sort arrows from the DataTable*/
+
+#displayTable.dataTable.no-footer thead,
+#jobSitesTable.dataTable.no-footer thead,
+#ContactsTable.dataTable.no-footer thead,
+#MachineryTable.dataTable.no-footer thead {
+    visibility: hidden;
+}
+
+
+/* No Longer Used*/
+
+#jobSitesTable,
+#ContactsTable,
+#MachineryTable {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+
+/* Changes some modal formatting*/
+
+.modal-body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center
+}
+
+
+/* Changes input boxes to be uniform in size of Modal, width is set because of being separated into columns*/
+
+.modal-body input {
+    width: 100%;
+}
+
+
+/* Set Margin of the bottom of a table*/
+
+table {
+    margin-bottom: 0rem !important;
+}
+
+
+/* Unused */
+
+.table-options {
+    display: inline-block;
+}
+
+
+/* Changes scroll formatting of the scrollable body of DataTable*/
+
+div.dataTables_scroll {
+    margin: 0 auto;
+    width: auto !important;
+}
+
+
+/* DataTable formatting*/
+
+table.dataTable {
+    margin: 0 !important;
+    width: auto !important;
+}
+
+div.dataTables_wrapper {
+    margin: 0 auto;
+    width: auto !important;
+}
+
+
+/* Class for a centered image*/
+
+.image-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* DataTables Active Highlight Class */
+
+td.highlight {
+    background-color: lightblue !important;
+}
+
+
+/* More table formatting*/
+
+th {
+    text-align: left;
+}
+
+table.dataTable thead th,
+table.dataTable tfoot th {
+    text-align: left;
+    background-color: white;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+    padding: 10px 18px 10px 5px;
+    border-right: 1px solid #dddddd;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 10px 18px 10px 5px;
+    border-right: 1px solid #dddddd;
+}
+
+div.dataTables_scrollHead {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33%;
+    padding: 10px;
+}
+
+.column-large {
+    flex: 50%;
+    padding: 10px;
+}
+
+
+/* Allows control of different table elements but are uniform as of 5.3.2020*/
+
+.col-sm-14,
+.col-sm-13,
+.col-sm-12,
+.col-sm-11,
+.col-sm-10,
+.col-sm-9,
+.col-sm-8,
+.col-sm-7,
+.col-sm-6,
+.col-sm-5,
+.col-sm-4,
+.col-sm-3 {
+    width: 10% !important;
+    min-width: 3em !important;
+}
+
+
+/* Different formatting for the delete element of a modal table */
+
+.col-sm-2 {
+    width: 5% !important;
+}
+
+
+/* Changes color of required form elements to provide user with undrestanding */
+
+:required {
+    border: .2em solid green;
+}
+
+
+/* Creates Modal-xl for the big edit and create new Customer Modal*/
+
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 95%;
+        max-width: 1300px;
+    }
+}
+
+
+/* More modal input formatting to allow them to increase size when focused*/
+
+.col-sm-15 input[type=text]:focus,
+.col-sm-14 input[type=text]:focus,
+.col-sm-13 input[type=text]:focus,
+.col-sm-12 input[type=text]:focus,
+.col-sm-11 input[type=text]:focus,
+.col-sm-10 input[type=text]:focus,
+.col-sm-9 input[type=text]:focus,
+.col-sm-8 input[type=text]:focus,
+.col-sm-7 input[type=text]:focus,
+.col-sm-6 input[type=text]:focus,
+.col-sm-5 input[type=text]:focus,
+.col-sm-4 input[type=text]:focus,
+.col-sm-4 textarea[type=text]:focus,
+.col-sm-3 textarea[type=text]:focus,
+.col-sm-3 input[type=number]:focus,
+.form-control input[type=text]:focus,
+.col-sm-3 input[type=text]:focus {
+    min-width: 10rem !important;
+}
+
+
+/* Modal Text Area focuesd formatting*/
+
+.col-sm-4 textarea[type=text]:focus,
+.col-sm-3 textarea[type=text]:focus {
+    min-height: 10rem;
+}
+
+
+/* Allows proper display of edit and new Customer Forms*/
+
+.deleteCustomerForm,
+.editCustomerForm {
+    display: inline !important;
+}
+
+
+/* Weekly schedule CSS*/
+
+#selection {
+    /*display: flex;*/
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tblWeekSchedule {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.5em !important;
+}
+
+#tourMonth,
+#scheduleWeek,
+#tourTech {
+    padding: 1em;
+}
+
+body {
+    background-color: lightgrey;
+}

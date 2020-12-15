@@ -1,0 +1,542 @@
+/*Bulletin CSS*/
+
+/*Table styling*/
+table, th, td, h2 {
+    border: 1px solid black;
+    font-family: Century Gothic;
+    font-size: 16px;
+}
+
+
+#loginInputUsername,
+#loginInputPassword
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid dimgrey;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+#loginButton {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+}
+
+.buttonFullSize {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+.buttonStyle {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+
+/*Username/Password style*/
+
+label {
+    color: black;
+    border: none;
+    font-family: "Century Gothic";
+}
+
+.loginLabel {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+}
+
+
+/*Login Button*/
+
+.loginButton {
+    background-color: maroon;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Century Gothic";
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover,
+.buttonFullSize:hover,
+#loginButton:hover,
+.buttonStyle:hover,
+submit:hover {
+    opacity: 0.8;
+}
+
+
+/* Center CSI image */
+
+.img_container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    border: black;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 10px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+
+/* Collin Code */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+a:active {
+    color: maroon;
+    text-decoration: none;
+  }
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.btn_edit,
+.btn_save,
+.btn_cancel,
+.btn_delete {
+    display: inline-block;
+}
+
+.OptionDiv {
+    white-space: nowrap;
+}
+
+.dataTables_info {
+    padding: 15px;
+}
+
+#table-scroll {
+    height: 150px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+th,
+td {
+    white-space: nowrap;
+    padding: 10px;
+}
+
+
+div.dataTables_length {
+    padding: 10px;
+}
+
+tr {
+    height: 3em;
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+#table-wrapper table {
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+#table-wrapper table thead th .text {
+    top: -10px;
+    z-index: 2;
+    height: 20px;
+    width: 35%;
+    border: 1px solid red;
+}
+
+tr:nth-child(even) {
+    background-color: #C0C0C0 !important;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+}
+
+#tbl_div div {
+    display: none;
+}
+
+#tableDiv {
+    overflow-x: auto;
+}
+
+#table-select {
+    float: left
+}
+
+#Criteria {
+    width: 40%;
+    height: 20%;
+}
+
+div.dataTables_scrollBody table thead .sorting:before,
+div.dataTables_scrollBody table thead .sorting_asc:before,
+div.dataTables_scrollBody table thead .sorting_desc:before {
+    display: none;
+}
+
+
+/*Remove double sort arrows from the DataTable*/
+
+#displayTable.dataTable.no-footer thead {
+    visibility: hidden;
+}
+
+.modal-body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center
+}
+
+.modal-body input {
+    width: 100%;
+}
+table {
+    margin-bottom: 0rem !important;
+}
+.table-options {
+    display: inline-block;
+}
+
+div.dataTables_scroll
+{
+    margin: 0 auto;
+    width: auto !important;
+}
+table.dataTable {
+    margin: 0 !important;
+    width: auto !important;
+}
+
+div.dataTables_wrapper {
+    margin: 0 auto;
+    width: auto !important;
+}
+
+.image-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+td.highlight {
+    background-color: crimson !important;
+}
+
+th {
+    text-align: left;
+}
+
+table.dataTable thead th,
+table.dataTable tfoot th {
+    text-align: left;
+    background-color: white;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+    padding: 10px 18px 10px 5px;
+    border-right: 1px solid #dddddd;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 10px 18px 10px 5px;
+    border-right: 1px solid #dddddd;
+}
+div.dataTables_scrollHead {
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: flex;
+  }
+.column {
+flex: 33%;
+padding: 10px;
+}
+.column-large {
+    flex: 50%;
+    padding: 10px;
+    }
+.col-sm-14,
+.col-sm-13,
+.col-sm-12,
+.col-sm-11,
+.col-sm-10,
+.col-sm-9,
+.col-sm-8,
+.col-sm-7,
+.col-sm-6,
+.col-sm-5,
+.col-sm-4,
+.col-sm-3
+{
+    width: 10% !important;
+    min-width: 3em !important;
+}
+.col-sm-2
+{
+    width: 5% !important;
+}
+:required {
+    border: .2em solid green;
+}
+@media (min-width: 768px) {
+    .modal-xl {
+      width: 95%;
+     max-width:1300px;
+    }
+}
+.col-sm-15 input[type=text]:focus,
+.col-sm-14 input[type=text]:focus,
+.col-sm-13 input[type=text]:focus,
+.col-sm-12 input[type=text]:focus,
+.col-sm-11 input[type=text]:focus,
+.col-sm-10 input[type=text]:focus,
+.col-sm-9 input[type=text]:focus,
+.col-sm-8 input[type=text]:focus,
+.col-sm-7 input[type=text]:focus,
+.col-sm-6 input[type=text]:focus,
+.col-sm-5 input[type=text]:focus,
+.col-sm-4 input[type=text]:focus,
+.col-sm-4 textarea[type=text]:focus,
+.col-sm-3 textarea[type=text]:focus,
+.col-sm-3 input[type=number]:focus,
+.form-control input[type=text]:focus,
+.col-sm-3 input[type=text]:focus {
+    min-width: 10rem !important;
+  }
+.col-sm-4 textarea[type=text]:focus,
+.col-sm-3 textarea[type=text]:focus {
+    min-height: 10rem;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox/ Checkbox Format */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.linkImage
+{
+    float:left;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Century Gothic";
+    background-color: Maroon;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/*responsive
+display the links vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/*Header*/
+.header {
+    padding: 60px;
+    text-align: center;
+    background: grey;
+    color: white;
+    font-size: 30px;
+}
+/*responsive img*/
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+.body{
+    background-color: lightgrey;
+}
+
+tr :hover {
+    background-color: lightblue;
+}
