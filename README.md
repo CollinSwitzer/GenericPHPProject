@@ -16,6 +16,8 @@ Technolgies used include:
     - Password - salt & hashing
 - MySQL
     - Convertion of formatted .csv file into useable and meaningful data while also removing irrelevant outliers
+- phpMyAdmin
+  - Interface for backend
   
 All of these technologies were used to create a GUI based website that allows for the creation, modification, and deletion of customer entities and products, new job sites,
 and new machinery that would be used by the client to conduct daily business.
