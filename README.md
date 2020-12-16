@@ -11,6 +11,7 @@ Technolgies used include:
   - Bootstrap
   - JQuery
     - Datatables
+  - AJAX
 - PHP
   - Dyanamically generated content
   - Security
