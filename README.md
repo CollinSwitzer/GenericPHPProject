@@ -2,6 +2,7 @@
 Hello,
 This project was originally created by Collin Switzer, Austin Barger, Prince Brooks, and Jake Rice for their CIS 411 Project.
 The goal of this project was to convert an old MS Works database into a .csv that could then be used for storing data in a MySQL database via phpMyAdmin.
+This version has generic information for customer data to show for public viewing
 
 Technolgies used include:
 - HTML5
